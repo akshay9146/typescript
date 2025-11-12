@@ -1,10 +1,12 @@
 type nameProp={
-    name:string
+    name:string,
+    children:React.ReactNode;
 }
-export default function Greeting({name}:nameProp){
+
+export default function Greeting({name,children}:nameProp){
     return(
         <>
-        hello age and my name is - {name}
+        hello age and my name is - {name} {children}
         </>
     )
 }
