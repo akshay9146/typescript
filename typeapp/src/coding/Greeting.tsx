@@ -4,7 +4,7 @@ type nameProp={
 export default function Greeting({name}:nameProp){
     return(
         <>
-        hello my name is - {name}
+        hello age and my name is - {name}
         </>
     )
 }
